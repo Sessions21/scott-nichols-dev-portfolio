@@ -119,6 +119,8 @@ li a {
 
 /* about section */
 
+
+
 .aboutme-container {
     margin: 10%;
     width: 80%;
@@ -256,6 +258,38 @@ li a {
     background-color:rgba(100, 100, 100, .2)
 }
 
+/* Contact Me Section */
+
+.contact-header {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px
+}
+
+.contact-container {
+    margin: 10%;
+    width: 80%;
+    height: auto;
+    background-color: rgb(236, 230, 230);
+    box-shadow: -10px 9px 30px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.contact-button {
+    border: 3px solid --dark-blue;
+    width: 140px;
+    box-shadow: -10 5 25px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    background-color:rgba(100, 100, 100, .2)
+}
+
 /* mobile view */
 @media (max-width: 768px) {
     #nav {
@@ -332,5 +366,12 @@ li a {
         margin-left: 20px;
         width: 100%;
         font-size: .75rem;
+    }
+    .contact-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(236, 230, 230);
+        box-shadow: -10px 9px 30px rgba(0, 0, 0, 0.2);
     }
 }
