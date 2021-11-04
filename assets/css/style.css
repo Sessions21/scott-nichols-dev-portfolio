@@ -54,6 +54,13 @@ li a {
     font-weight: bold;
 }
 
+.name {
+    margin-top: 5px;
+    color: var(--dark-blue);
+    font-size: 25px;
+    padding: 10px;
+}
+
 /* Hero Section */
 
 .container{
@@ -119,10 +126,16 @@ li a {
 
 /* about section */
 
-
+#aboutme-header {
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px
+}
 
 .aboutme-container {
-    margin: 10%;
+    margin: 3%; 
     width: 80%;
     height: auto;
     background-color: rgb(236, 230, 230);
@@ -165,13 +178,6 @@ li a {
     align-items: center;
     justify-content: center;
     margin: 20px
-}
-
-.name {
-    margin-top: 5px;
-    color: var(--dark-blue);
-    font-size: 25px;
-    padding: 10px;
 }
 
 .content {
@@ -245,7 +251,7 @@ li a {
 }
 
 .text-container:hover {
-    height: 190px;
+    height: 210px;
 }
 
 .button {
@@ -261,7 +267,7 @@ li a {
 /* Contact Me Section */
 
 .contact-header {
-    font-size: 3rem;
+    font-size: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -269,7 +275,7 @@ li a {
 }
 
 .contact-container {
-    margin: 10%;
+    margin: 5%;
     width: 80%;
     height: auto;
     background-color: rgb(236, 230, 230);
@@ -281,13 +287,12 @@ li a {
 }
 
 .contact-button {
-    border: 3px solid --dark-blue;
-    width: 140px;
-    box-shadow: -10 5 25px rgba(0, 0, 0, 0.3);
-    padding: 10px;
-    margin-bottom: 40px;
-    border-radius: 12px;
-    background-color:rgba(100, 100, 100, .2)
+    border: 2px solid var(--light-blue);
+    width: 150px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 /* mobile view */
@@ -347,6 +352,11 @@ li a {
         box-shadow: -10px 8px 30px rgba(0, 0, 0, 0.2);
         border-radius: 12px;
     }
+
+    .text-container:hover {
+        height: 470px;
+    }
+
     .aboutme-container {
         display: flex;
         align-items: center;
