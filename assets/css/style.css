@@ -198,16 +198,29 @@ li a {
     flex-flow: wrap;
 }
 
-.project-run-buddy {
+.project-ring-builder {
     width: 800px;
     height: 600px;
+    background: #fff;
+    position: relative;
+    margin: 45px;
+    background-image: url(../images/Landing-Screenshot.png);
+    background-size: cover;
+    background-position:left;
+    box-shadow: -10px 8px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+}
+
+.project-run-buddy {
+    width: 500px;
+    height: 300px;
     background: #fff;
     position: relative;
     margin: 45px;
     background-image: url(../images/hero-bg.jpg);
     background-size: cover;
     background-position: center;
-    box-shadow: -10px 8px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: -10px 8px 30px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
 }
 
@@ -315,18 +328,30 @@ li a {
         background-color: rgba(0, 0, 0, 0.6);
     }
 
-    .project-run-buddy {
+    .project-ring-builder {
         width: 175px;
         height: 200px;
+        background: #fff;
+        position: relative;
+        margin: 45px;
+        background-image: url(../images/Landing-Screenshot.png);
+        background-size: cover;
+        background-position: left;
+        box-shadow: -10px 8px 30px rgba(0, 0, 0, 0.3);
+        border-radius: 12px;
+    }
+    .project-run-buddy {
+        width: 150px;
+        height: 300px;
         background: #fff;
         position: relative;
         margin: 45px;
         background-image: url(../images/hero-bg.jpg);
         background-size: cover;
         background-position: center;
-        box-shadow: -10px 8px 30px rgba(0, 0, 0, 0.3);
+        box-shadow: -10px 8px 30px rgba(0, 0, 0, 0.2);
         border-radius: 12px;
-    }
+    }    
     .project-sports {
         width: 150px;
         height: 300px;
