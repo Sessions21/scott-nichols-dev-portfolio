@@ -198,9 +198,22 @@ li a {
     flex-flow: wrap;
 }
 
-.project-ring-builder {
+.project-t-shirt-paradise {
     width: 800px;
-    height: 600px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    margin: 45px;
+    background-image: url(../images/home-page.png);
+    background-size: cover;
+    background-position:left;
+    box-shadow: -10px 8px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+}
+
+.project-ring-builder {
+    width: 500px;
+    height: 300px;
     background: #fff;
     position: relative;
     margin: 45px;
